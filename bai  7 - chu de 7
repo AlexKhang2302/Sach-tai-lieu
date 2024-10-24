@@ -1,0 +1,9 @@
+n = int(input("Nhap so tu nhien n: "))
+s = 0
+if n > 0:
+    while n > 0:
+        s += n%10
+        n //= 10
+    print(s)
+else:
+    print("Vui long nhap lai")
