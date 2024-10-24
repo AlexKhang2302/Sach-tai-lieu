@@ -13,4 +13,8 @@ if b <= d:
 else:
     f = d
 
-print("co",f - e + 1,"so nguyen thuoc","[",e,";",f,"]")
+n = f - e + 1
+if n > 0:
+    print("co",n,"so nguyen thuoc","[",e,";",f,"]")
+else:
+    print("Hai tap hop khong giao nhau")
