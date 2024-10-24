@@ -1,0 +1,16 @@
+a = int(input("Nhap so nguyen a: "))
+b = int(input("Nhap so nguyen b: "))
+c = int(input("Nhap so nguyen c: "))
+d = int(input("Nhap so nguyen d: "))
+
+if a >= c:
+    e = a
+else:
+    e = c
+    
+if b <= d:
+    f = b
+else:
+    f = d
+
+print("co",f - e + 1,"so nguyen thuoc","[",e,";",f,"]")
