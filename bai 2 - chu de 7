@@ -1,0 +1,21 @@
+n = int(input("Nhap so tu nhien n: "))
+max = 0
+min = 9
+if n > 0:
+    while n > 0:
+        a = int(n%10)
+        # Max num
+        if max > a:
+            max = max
+        else:
+            max = a
+        # Min num
+        if min < a:
+            min = min
+        else: 
+            min = a
+        n //= 10   
+    print("Chu so lon nhat:", max)
+    print("Chu so nho nhat:", min)
+else:
+    print("Vui long nhap lai")
